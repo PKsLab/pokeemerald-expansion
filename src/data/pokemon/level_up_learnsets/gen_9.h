@@ -20175,10 +20175,10 @@ static const struct LevelUpMove sEnamorusLevelUpLearnset[] = {
 
 #if P_FAMILY_SPRIGATITO
 static const struct LevelUpMove sSprigatitoLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_POUND),
-    LEVEL_UP_MOVE( 1, MOVE_PAY_DAY),
-    LEVEL_UP_MOVE( 1, MOVE_MEGA_PUNCH),
-    LEVEL_UP_MOVE( 7, MOVE_BITE),
+    LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
+    LEVEL_UP_MOVE( 1, MOVE_VISE_GRIP),
+    LEVEL_UP_MOVE( 1, MOVE_CUT),
+    LEVEL_UP_MOVE( 1, MOVE_FLY),
     LEVEL_UP_MOVE(10, MOVE_HONE_CLAWS),
     LEVEL_UP_MOVE(13, MOVE_MAGICAL_LEAF),
     LEVEL_UP_MOVE(15, MOVE_QUICK_ATTACK),
