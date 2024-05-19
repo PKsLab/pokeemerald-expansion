@@ -16,12 +16,26 @@ script OnTransition {
 	
 
 script EveryFrame {
-	lock
-	addvar (VAR_TEMP_0, 1)
-	msgbox ("Before the game starts, you must\n"
-	"decide what path you'll be choosing.\p"
-	"Path (EXAMPLE) selected!\p"
-	"Thanks for playing, and enjoy!$")
-	release
-	end
+    lock 
+    faceplayer
+    msgbox ("Before the game starts, you must\n"
+	"decide what path you'll be choosing.$")
+    dynmultichoice(0,0, TRUE, 3, 0, DYN_MULTICHOICE_CB_NONE, "Vanilla", "Reverse", "West", "East", "Scrambled")
+    buffernumberstring(STR_VAR_1, VAR_RESULT)
+    switch (var(VAR_RESULT)) {
+        case 0:
+              msgbox ("You chose the Vanilla Path!")
+        case 1:
+            msgbox ("You chose the Reverse Path!")
+        case 2:
+            msgbox ("You chose the West Path!")    
+        case 3:
+            msgbox ("You chose the East Path!")
+        case 4:
+            msgbox ("You chose the Scrambled Path!")
+    }
+    closemessage
+    msgbox ("Thanks for playing, and enjoy!")
+    release
+    end
 }
