@@ -19,23 +19,34 @@ script EveryFrame {
     lock 
     faceplayer
     msgbox ("Before the game starts, you must\n"
-	"decide what path you'll be choosing.$")
+	"decide what path you'll be choosing.\p"
+    "Different paths change which order you\n"
+    "do the boss fights in.\p"
+    "Read the DoozDex for some more info!")
     dynmultichoice(0,0, TRUE, 3, 0, DYN_MULTICHOICE_CB_NONE, "Vanilla", "Reverse", "West", "East", "Scrambled")
     buffernumberstring(STR_VAR_1, VAR_RESULT)
     switch (var(VAR_RESULT)) {
         case 0:
-              msgbox ("You chose the Vanilla Path!")
+            msgbox ("You chose the Vanilla Path!")
+            setvar (VAR_GAME_PATHS, 0 )
         case 1:
             msgbox ("You chose the Reverse Path!")
+            setvar (VAR_GAME_PATHS, 1 )
         case 2:
-            msgbox ("You chose the West Path!")    
+            msgbox ("You chose the West Path!")
+            setvar (VAR_GAME_PATHS, 2 )    
         case 3:
             msgbox ("You chose the East Path!")
+            setvar (VAR_GAME_PATHS, 3 )   
         case 4:
             msgbox ("You chose the Scrambled Path!")
+            setvar (VAR_GAME_PATHS, 4 )  
     }
     closemessage
     msgbox ("Thanks for playing, and enjoy!")
+    closemessage
+    warp(MAP_INSIDE_OF_TRUCK, 2, 2)
+    waitstate
     release
     end
 }

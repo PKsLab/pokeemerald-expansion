@@ -1,0 +1,37 @@
+Script started on 2024-05-19 21:13:29-07:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+ 
+	trainerbattle_single(TRAINER_MAY_ROUTE_103_TORCHIC, May_Intro, May_Outro)
+	msgbox(PostBattle_May, MSGBOX_AUTOCLOSE) 
+	waitmessage
+    end
+ 
+}
+ 
+text May_Intro{
+    "You'll never win"
+}
+ 
+text May_Outro{
+    "Doesn't count"
+}
+ 
+text PostBattle_May{
+    "I'll win next time"
+}[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$  
+[?2004l[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$ trainerbattle_single(TRAINER_MAY_ROUTE_103_TORCHIC, May_Intro, May_Outro)
+[?2004lbash: syntax error near unexpected token `TRAINER_MAY_ROUTE_103_TORCHIC,'
+[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$ msgbox(PostBattle_May, MSGBOX_AUTOCLOSE) 
+[?2004lbash: syntax error near unexpected token `PostBattle_May,'
+[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$ waitmessage
+[?2004lbash: waitmessage: command not found
+[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$     end
+[?2004lbash: end: command not found
+[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$  
+[?2004l[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$ }
+[?2004lbash: syntax error near unexpected token `}'
+[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$  
+[?2004l[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$ text May_Intro{
+[?2004lbash: text: command not found
+[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[01;32mpkslab@DESKTOP-KGBPV7O[00m:[01;34m/mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/pokeemerald-expansion[00m$     "You'll never win"
+[?2004lbash: You'll never win: command not found
+[?2004h]0;pkslab@DESKTOP-KGBPV7O: /mnt/c/Users/mixer/Downloads/Games/Pokemon/SCRAAAAAAAAAAAAAMBLED/Scrambled-Emerald/poke
