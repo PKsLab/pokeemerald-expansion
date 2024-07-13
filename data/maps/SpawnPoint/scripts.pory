@@ -28,19 +28,19 @@ script EveryFrame {
     switch (var(VAR_RESULT)) {
         case 0:
             msgbox ("You chose the Vanilla Path!")
-            setvar (VAR_GAME_PATHS, 0 )
+            setvar (VAR_GAME_PATHS, 1 )
         case 1:
             msgbox ("You chose the Reverse Path!")
-            setvar (VAR_GAME_PATHS, 1 )
+            setvar (VAR_GAME_PATHS, 2 )
         case 2:
             msgbox ("You chose the West Path!")
-            setvar (VAR_GAME_PATHS, 2 )    
+            setvar (VAR_GAME_PATHS, 3 )    
         case 3:
             msgbox ("You chose the East Path!")
-            setvar (VAR_GAME_PATHS, 3 )   
+            setvar (VAR_GAME_PATHS, 4 )   
         case 4:
             msgbox ("You chose the Scrambled Path!")
-            setvar (VAR_GAME_PATHS, 4 )  
+            setvar (VAR_GAME_PATHS, 5 )  
     }
     closemessage
     msgbox ("Thanks for playing, and enjoy!")

@@ -64,35 +64,35 @@ EveryFrame_3:
 # 30 "data/maps/SpawnPoint/scripts.pory"
 	msgbox EveryFrame_Text_6
 # 31 "data/maps/SpawnPoint/scripts.pory"
-	setvar VAR_GAME_PATHS, 0
+	setvar VAR_GAME_PATHS, 1
 	goto EveryFrame_1
 
 EveryFrame_4:
 # 33 "data/maps/SpawnPoint/scripts.pory"
 	msgbox EveryFrame_Text_7
 # 34 "data/maps/SpawnPoint/scripts.pory"
-	setvar VAR_GAME_PATHS, 1
+	setvar VAR_GAME_PATHS, 2
 	goto EveryFrame_1
 
 EveryFrame_5:
 # 36 "data/maps/SpawnPoint/scripts.pory"
 	msgbox EveryFrame_Text_8
 # 37 "data/maps/SpawnPoint/scripts.pory"
-	setvar VAR_GAME_PATHS, 2
+	setvar VAR_GAME_PATHS, 3
 	goto EveryFrame_1
 
 EveryFrame_6:
 # 39 "data/maps/SpawnPoint/scripts.pory"
 	msgbox EveryFrame_Text_9
 # 40 "data/maps/SpawnPoint/scripts.pory"
-	setvar VAR_GAME_PATHS, 3
+	setvar VAR_GAME_PATHS, 4
 	goto EveryFrame_1
 
 EveryFrame_7:
 # 42 "data/maps/SpawnPoint/scripts.pory"
 	msgbox EveryFrame_Text_10
 # 43 "data/maps/SpawnPoint/scripts.pory"
-	setvar VAR_GAME_PATHS, 4
+	setvar VAR_GAME_PATHS, 5
 	goto EveryFrame_1
 
 

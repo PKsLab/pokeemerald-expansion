@@ -1,14 +1,8 @@
 .set LOCALID_NURSE, 1
 
 RustboroCity_PokemonCenter_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_PokemonCenter_1F_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE
-    map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_PokemonCenter_1F_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
 	.byte 0
-
-RustboroCity_PokemonCenter_1F_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE:
-	map_script_2 VAR_TEMP_0, 0, PathChanger
-	.2byte 0
 
 RustboroCity_PokemonCenter_1F_OnTransition:
 	setrespawn HEAL_LOCATION_RUSTBORO_CITY
@@ -51,4 +45,4 @@ RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 	.string "The man next door gave me an HM!\p"
 	.string "I used it to teach my POKéMON how to\n"
 	.string "CUT down skinny trees.$"
-
+	

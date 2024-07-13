@@ -1,0 +1,266 @@
+[33mcommit 792e3c79fc72b2919181ffea8ac9a5c4a174081f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mnew_changes_backup[m[33m)[m
+Author: PKsLab <mixeronly23@gmail.com>
+Date:   Fri Jun 7 22:21:44 2024 -0700
+
+    Finished Rustboro Path Changer
+
+[33mcommit 2f76c25f62909b44176dccf5e7009183dc6887ed[m
+Author: PKsLab <mixeronly23@gmail.com>
+Date:   Mon May 27 15:46:50 2024 -0700
+
+    Got Path to work
+
+[33mcommit beb0b1bdf54caf8736c4fd08c434f8c31f2d1788[m
+Merge: e688ba040 680c5581d
+Author: PKsLab <mixeronly23@gmail.com>
+Date:   Mon May 27 10:11:05 2024 -0700
+
+    Merge tag 'expansion/1.8.4' of https://github.com/rh-hideout/pokeemerald-expansion
+
+[33mcommit 680c5581d4a2572cc336bb9e7107d2793d5baf56[m[33m ([m[1;33mtag: expansion/1.8.4[m[33m)[m
+Author: Eduardo Quezada <eduardo602002@gmail.com>
+Date:   Mon May 27 09:14:35 2024 -0400
+
+    Fixed changelog inaccuracy
+
+[33mcommit 767a1c79374c33d79c033a16186e50fc4976d814[m
+Author: Eduardo Quezada <eduardo602002@gmail.com>
+Date:   Mon May 27 09:06:34 2024 -0400
+
+    Version 1.8.4 (#4639)
+    
+    * Version 1.8.4
+    
+    * Missing labels
+
+[33mcommit 431cb64b3e5acdd7f7b26bd16108689b1d2b22b8[m
+Merge: acd62b006 9e72271c8
+Author: Philipp AUER <SBird1337@users.noreply.github.com>
+Date:   Mon May 27 12:40:41 2024 +0200
+
+    Pre-1.8.4 pret merge (2024/05/26) (v2) (#4637)
+
+[33mcommit acd62b006560b096e39b09cf4ffc3e4557c7e310[m
+Author: Eduardo Quezada <eduardo602002@gmail.com>
+Date:   Mon May 27 00:38:05 2024 -0400
+
+    Reverted bad implementation of Sparkling Aria+Covert Cloak/Shield Dust (#4634)
+
+[33mcommit 94af656f17bac3598738b13487af107446658dd6[m
+Author: Rachel <lhearachel@proton.me>
+Date:   Sun May 26 18:50:12 2024 -0700
+
+    Explicitly define Gengar's 3rd ability slot (Hidden Ability) (#4633)
+
+[33mcommit 9e72271c8eb4101f295dc6872b68e3032717fc87[m
+Merge: c279aa23c 18f84b78f
+Author: Eduardo Quezada <eduardo602002@gmail.com>
+Date:   Sun May 26 18:34:26 2024 -0400
+
+    Merge remote-tracking branch '_pret_origin/master' into _RHH/pr/master/pret_20240526
+    
+    # Conflicts:
+    #       src/battle_anim_poison.c
+    #       src/pokemon.c
+    #       src/pokemon_icon.c
+
+[33mcommit c279aa23c6d4d83d7ac693d9dfc34be38ade106d[m
+Author: Pawkkie <61265402+Pawkkie@users.noreply.github.com>
+Date:   Sun May 26 16:23:04 2024 -0400
+
+    Belch AI Scoring Fix (#4616)
+    
+    * Belch scoring fix and test
+    
+    * Add assumptions for pocket
+    
+    * Update test to AI_SINGLE_BATTLE_TEST
+    
+    * Alex's fixes
+    
+    * Missed reverting a line
+    
+    * Mucked up spacing mb
+    
+    * Mucked up the spacing fix mb MB
+
+[33mcommit 2e07dbb0eeaee0fc376d22bdbc9834b941209714[m
+Author: kittenchilly <mario.pikmin.zelda@gmail.com>
+Date:   Sun May 26 15:20:51 2024 -0500
+
+    Add Gen 9 and PLA footprints + update some footprints (#4621)
+    
+    * PLA footprints
+    
+    * Gen 9 Starters
+    
+    * Gen 9 Cross Gen Evos
+    
+    * Question mark
+    
+    * Gen 9 regular mons
+    
+    * Gen 9 Paradox mons
+    
+    * Gen 9 legendaries and mythicals
+    
+    * Past gen mon footprint changes
+
+[33mcommit 8f38089127eacf406d485399dc9a671c0a99c2d0[m
+Author: Eduardo Quezada <eduardo602002@gmail.com>
+Date:   Sun May 26 13:38:22 2024 -0400
+
+    Added failsafe in HGSS dex for Egg Groups without text defined (#4628)
+    
+    * Added failsafe in HGSS dex for Egg Groups without text defined
+    
+    * Fixed stringvar
+
+[33mcommit ee1d0339f96f9f4d7e26c536b1374db6d52adc22[m
+Author: Eduardo Quezada <eduardo602002@gmail.com>
+Date:   Sun May 26 13:37:58 2024 -0400
+
+    Fixed HITMARKER_PASSIVE_DAMAGE whitespace (#4629)
+
+[33mcommit 487dc921197c72524879c15b9cf20407fb762347[m
+Author: hedara90 <90hedara@gmail.com>
+Date:   Sun May 26 17:01:20 2024 +0200
+
+    Fixing bugs with Moxie clones+Dynamax, Fling Flinch infinite loop and Focus Sash+foreseen moves (#4625)
+    
+    * Fixed Elixirs not being able to be used unless the first move was missing PP
+    
+    * Revert "Pokedex Plus fixes (#4514)"
+    
+    This reverts commit 982934c4aad64c75468e2ae6642cb74e50aa0944.
+    
+    * Pokedex Plus fixes (#4514)
+    
+    * Pokedex plus no longer allows browsing unseen evos
+    
+    * Restore "has no evolutions" printing
+    
+    * only print "has no evolution" text at 0 depth
+    
+    * Revert config changes
+    
+    * fix duplicate icons and removed eevee hardcodes
+    
+    * add new scope and indentation fixes
+    
+    * actually introduce new scope
+    
+    * Revert "Fixed Elixirs not being able to be used unless the first move was missing PP"
+    
+    This reverts commit 313f2e552672cae9506c6a647464c247b9b39928.
+    
+    * Initial Testing of Focus Sash+Future Sight
+    
+    * Fixed infinite loop when flinging Razor Fang on a mon that's already moved
+    
+    * Fixed Moxie clones not triggering on pokemon fainted by Max Moves
+    
+    * Fixed Focus Sash enduring another time if broken by foreseen moves
+    
+    * Update src/battle_script_commands.c
+    
+    Co-authored-by: Alex <93446519+AlexOn1ine@users.noreply.github.com>
+    
+    * Update src/battle_script_commands.c
+    
+    Co-authored-by: Alex <93446519+AlexOn1ine@users.noreply.github.com>
+    
+    * Added assumptions to tests
+    
+    ---------
+    
+    Co-authored-by: Hedara <hedara90@gmail.com>
+    Co-authored-by: sneed <56992013+Sneed69@users.noreply.github.com>
+    Co-authored-by: Alex <93446519+AlexOn1ine@users.noreply.github.com>
+
+[33mcommit 474f929c023254d068cce5256801cbb7a4c3d66a[m
+Author: cawtds <38510667+cawtds@users.noreply.github.com>
+Date:   Sun May 26 00:06:55 2024 +0200
+
+    Fix dire hit being used on incorrect target (#4626)
+    
+    * fix getboxmondata for evolutiontracker if compiled with agbcc
+    
+    * fix dire hit being used on incorrect battler
+
+[33mcommit a507af300e27ae85840f04223d6834b79b50dedc[m
+Author: BlueAnthem37510 <137793234+BlueAnthem37510@users.noreply.github.com>
+Date:   Fri May 24 10:28:35 2024 +0100
+
+    Sceptilite & Salandit sprite fixes (#4614)
+    
+    Co-authored-by: BlueAnthem37510 <a@a.com>
+
+[33mcommit 312dcbb8a8f9ec3b08be7c3ae1d32389c0bc92d9[m
+Author: sneed <56992013+Sneed69@users.noreply.github.com>
+Date:   Fri May 24 12:21:35 2024 +0300
+
+    Speed Ignoring effect fixes (#4613)
+    
+    * Custap ties with Quick Draw, Stall with Mycelium
+    
+    * add a test
+
+[33mcommit 18f84b78f2d1a8669753fa586836fca06036c790[m
+Merge: aa4fa925c b592c6eae
+Author: GriffinR <griffin.g.richards@gmail.com>
+Date:   Wed May 22 20:29:12 2024 -0400
+
+    Merge pull request #1998 from Sneed69/define-POKE_ICON_BASE_PAL_TAG
+    
+    Move POKE_ICON_BASE_PAL_TAG to a header
+
+[33mcommit b592c6eae5015e6b01198212444a3b852bda27d0[m
+Author: sneed <devilduke1995@gmail.com>
+Date:   Thu May 23 02:45:22 2024 +0300
+
+    Add POKE_ICON_BASE_PAL_TAG to a header
+
+[33mcommit edab81b658774a61045e60b24a69a6877658d42b[m
+Author: kittenchilly <mario.pikmin.zelda@gmail.com>
+Date:   Wed May 22 15:20:44 2024 -0500
+
+    Fix Inner Focus, Scrappy, etc granting immunity to all stat drops if the attacker has Intimidate (#4606)
+    
+    * Fix Inner Focus, Scrappy, etc granting immunity to all stat drops if the attacker has Intimidate
+    
+    * Formatting
+    
+    * Test
+    
+    * Update own_tempo.c
+
+[33mcommit 973146c725fd54413ce22df18abe2c259237ebbf[m
+Author: Alex <93446519+AlexOn1ine@users.noreply.github.com>
+Date:   Wed May 22 00:55:20 2024 +0200
+
+    BS_SetGlaiveRush formatting (#4610)
+    
+    Please merge my OCD induced change.
+
+[33mcommit aa4fa925c2a00447bc7448b12300ef4b8bb1f7c8[m
+Merge: 999731fbf 411d7e617
+Author: GriffinR <griffin.g.richards@gmail.com>
+Date:   Tue May 21 12:01:53 2024 -0400
+
+    Merge pull request #1995 from Jaizu/adjust_friendship
+    
+    Make AdjustFriendship more readable
+
+[33mcommit 999731fbf184784e99a842e1deff72a5ce60227f[m
+Merge: 5dbd90b91 ef03daf6d
+Author: GriffinR <griffin.g.richards@gmail.com>
+Date:   Tue May 21 11:58:08 2024 -0400
+
+    Merge pull request #1996 from Jaizu/fix_pokeblocks
+    
+    Fix Pokeblock script missing a releaseall
+
+[33mcommit b73e33618d3f0d42b46468ed4299bfce49d3fa51[m
+Author: cawtds <38510667+cawtds@users.noreply.github.com>
+Date:   Mon May 2

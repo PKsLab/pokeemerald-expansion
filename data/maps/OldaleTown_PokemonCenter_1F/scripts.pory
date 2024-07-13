@@ -2,14 +2,8 @@ raw `
 .set LOCALID_NURSE, 1
 
 OldaleTown_PokemonCenter_1F_MapScripts::
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, OldaleCenter_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE
-    map_script MAP_SCRIPT_ON_TRANSITION, OldaleTown_PokemonCenter_1F_OnTransition
 	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
 	.byte 0
-
-OldaleTown_PokemonCenter_1F_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE:
-	map_script_2 VAR_TEMP_0, 0, PathChanger
-	.2byte 0
 
 OldaleTown_PokemonCenter_1F_OnTransition:
 	setrespawn HEAL_LOCATION_OLDALE_TOWN
@@ -75,24 +69,25 @@ script PathChanger {
     msgbox ("Hi there! I can swap the\n"
     "different paths in the game for you.\p"
     "Which path would you like to swap to?")
+	setvar(VAR_GAME_PATHS, 0)
     dynmultichoice(0,0, TRUE, 3, 0, DYN_MULTICHOICE_CB_NONE, "Vanilla", "Reverse", "West", "East", "Scrambled")
     buffernumberstring(STR_VAR_1, VAR_RESULT)
     switch (var(VAR_RESULT)) {
         case 0:
             msgbox ("You swapped to the Vanilla Path!")
-            setvar (VAR_GAME_PATHS, 0 )
+            setvar (VAR_GAME_PATHS, 1 )
         case 1:
             msgbox ("You swapped to the Reverse Path!")
-            setvar (VAR_GAME_PATHS, 1 )
+            setvar (VAR_GAME_PATHS, 2 )
         case 2:
             msgbox ("You swapped to the West Path!")
-            setvar (VAR_GAME_PATHS, 2 )    
+            setvar (VAR_GAME_PATHS, 3 )    
         case 3:
             msgbox ("You swapped to the East Path!")
-            setvar (VAR_GAME_PATHS, 3 )   
+            setvar (VAR_GAME_PATHS, 4 )   
         case 4:
             msgbox ("You swapped to the Scrambled Path!")
-            setvar (VAR_GAME_PATHS, 4 )  
+            setvar (VAR_GAME_PATHS, 5 )  
     }
     closemessage
     release

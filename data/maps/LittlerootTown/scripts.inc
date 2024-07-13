@@ -2043,10 +2043,10 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 
 Route102_EventScript_Calvin2::
 # 1027 "data/maps/LittlerootTown/scripts.pory"
-	compare VAR_GAME_PATHS, 0
+	compare VAR_GAME_PATHS, 1
 	goto_if_eq Route102_EventScript_Calvin2_1
 # 1031 "data/maps/LittlerootTown/scripts.pory"
-	compare VAR_GAME_PATHS, 1
+	compare VAR_GAME_PATHS, 2
 	goto_if_eq Route102_EventScript_Calvin2_2
 	return
 

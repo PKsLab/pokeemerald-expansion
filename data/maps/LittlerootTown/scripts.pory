@@ -1024,11 +1024,11 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 `
 
 script Route102_EventScript_Calvin2 {
-    if (var(VAR_GAME_PATHS) == 0){
+    if (var(VAR_GAME_PATHS) == 1){
         trainerbattle_single(TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated,)
         msgbox (Route102_Text_CalvinPostBattle)
 	    end
-    }elif (var(VAR_GAME_PATHS) == 1){  
+    }elif (var(VAR_GAME_PATHS) == 2){  
         trainerbattle_single(TRAINER_CALVIN_2, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated,)
         msgbox (Route102_Text_CalvinPostBattle)
 	    end
